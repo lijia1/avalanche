@@ -381,7 +381,7 @@ body.expose .slide:hover aside.page_number {
   background-color: #eee;
   color: #000;
   border-right: 5px solid #ddd;
-  z-index: 63;
+  z-index: 100;
   height: 100%;
   overflow: hidden;
   top: 0;

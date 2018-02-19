@@ -175,7 +175,10 @@ div.presentation, div.slides {
 div.slide {
   display: block !important;
   width: 740pt !important;
-  height: 460pt !important;
+  /* 460pt is for A4 */
+  /* height: 460pt !important; */
+  /* 540pt is for Letter */
+  height: 540pt !important;
   border: 2pt solid #ddd;
 /*  width      : 100%;
   height     : 100%;*/

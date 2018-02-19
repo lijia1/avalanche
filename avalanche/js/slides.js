@@ -286,7 +286,9 @@ function main() {
         if (!toc) {
             return;
         }
-
+        /* 
+        // lijia1 commented out this because it is not working
+        // TODO : fix this nicely
         if (!tocOpened || !overviewActive) {
             presentation.style.marginLeft = '0px';
             presentation.style.width = '100%';
@@ -294,6 +296,7 @@ function main() {
             presentation.style.marginLeft = toc.clientWidth + 'px';
             presentation.style.width = (presentation.clientWidth - toc.clientWidth) + 'px';
         }
+        */
     };
 
     var computeScale = function() {
